@@ -1,10 +1,10 @@
-package com.romano.resumeserver;
+package com.romano.springserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ResumeServerApplicationTests {
+class SpringServerApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,29 +1,30 @@
-package com.romano.resumeserver;
+package com.romano.springserver;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
-@Profile("!test")
+@Profile("test")
 @Configuration
 @EnableWebSecurity
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
+public class TestSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http
-                .csrf()
-                .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
-                .and()
-                .authorizeRequests()
-                .antMatchers("/", "/login**","/callback/", "/webjars/**", "/error**", "/oauth2/callback/**", "/static/**")
-                .permitAll()
+        http.authorizeRequests()
+                .antMatchers("/").permitAll()
                 .anyRequest().authenticated()
-                .and().oauth2Client()
-                .and().oauth2Login();
+                .and().httpBasic();
+
         http.headers().frameOptions().disable();
+    }
+
+    @Override
+    protected void configure(final AuthenticationManagerBuilder auth) throws Exception {
+        auth.inMemoryAuthentication()
+                .withUser("test").password("{noop}password");
     }
 }

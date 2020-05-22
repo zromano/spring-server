@@ -1,4 +1,4 @@
-package com.romano.resumeserver;
+package com.romano.springserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
