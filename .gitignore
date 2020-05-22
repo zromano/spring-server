@@ -5,6 +5,9 @@ build/
 !**/src/main/**
 !**/src/test/**
 
+### front end ###
+src/main/resources/public/**
+
 ### STS ###
 .apt_generated
 .classpath

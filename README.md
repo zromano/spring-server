@@ -1,4 +1,9 @@
-# Resume Server
+# Spring Server With React and Facebook Auth
+
+Go to any page besides "/" and you will be prompted to login with Facebook. 
+Once you are authenticated via Facebook, you should see the homepage say "hello"
+
+The front-end of this app is made with Create-React-App, and could easily scale with reusable components.
 
 ### Build
 To build the code, run:  
@@ -10,7 +15,11 @@ This will:
 * Compile the Java code
 
 ### Run Locally:
-Start the React app by running `npm run start` in the `/frontend` directory.
+Set the following environment variables, or use profile `test` to revert to basic auth.
+* FACEBOOK_APP_ID
+* FACEBOOK_APP_SECRET
+
+Start the React app by running `npm run start` in the `/frontend` directory.  
 Start the Spring app by running `./gradlew bootRun`.
 
 

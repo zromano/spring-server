@@ -1,0 +1,21 @@
+
+${Ansi.MAGENTA}                                                           Zach
+${Ansi.BLUE} RRRRRRRRRRRRRRRRR        OOOOOOOOO     MMMMMMMM               MMMMMMMM               AAA               NNNNNNNN        NNNNNNNN     OOOOOOOOO
+${Ansi.BLUE}|R::::::::::::::::R     OO:::::::::OO   M:::::::M             M:::::::M              A:::A              N:::::::N       N::::::N   OO:::::::::OO
+${Ansi.BLUE}|R::::::RRRRRR:::::R  OO:::::::::::::OO M::::::::M           M::::::::M             A:::::A             N::::::::N      N::::::N OO:::::::::::::OO
+${Ansi.BLUE}|RR:::::R     R:::::RO:::::::OOO:::::::OM:::::::::M         M:::::::::M            A:::::::A            N:::::::::N     N::::::NO:::::::OOO:::::::O
+${Ansi.BLUE}|  R::::R     R:::::RO::::::O   O::::::OM::::::::::M       M::::::::::M           A:::::::::A           N::::::::::N    N::::::NO::::::O   O::::::O
+${Ansi.BLUE}|  R::::R     R:::::RO:::::O     O:::::OM:::::::::::M     M:::::::::::M          A:::::A:::::A          N:::::::::::N   N::::::NO:::::O     O:::::O
+${Ansi.BLUE}|  R::::RRRRRR:::::R O:::::O     O:::::OM:::::::M::::M   M::::M:::::::M         A:::::A A:::::A         N:::::::N::::N  N::::::NO:::::O     O:::::O
+${Ansi.BLUE}|  R:::::::::::::RR  O:::::O     O:::::OM::::::M M::::M M::::M M::::::M        A:::::A   A:::::A        N::::::N N::::N N::::::NO:::::O     O:::::O
+${Ansi.BLUE}|  R::::RRRRRR:::::R O:::::O     O:::::OM::::::M  M::::M::::M  M::::::M       A:::::A     A:::::A       N::::::N  N::::N:::::::NO:::::O     O:::::O
+${Ansi.BLUE}|  R::::R     R:::::RO:::::O     O:::::OM::::::M   M:::::::M   M::::::M      A:::::AAAAAAAAA:::::A      N::::::N   N:::::::::::NO:::::O     O:::::O
+${Ansi.BLUE}   R::::R     R:::::RO:::::O     O:::::OM::::::M    M:::::M    M::::::M     A:::::::::::::::::::::A     N::::::N    N::::::::::NO:::::O     O:::::O
+${Ansi.BLUE}   R::::R     R:::::RO::::::O   O::::::OM::::::M     MMMMM     M::::::M    A:::::AAAAAAAAAAAAA:::::A    N::::::N     N:::::::::NO::::::O   O::::::O
+${Ansi.BLUE} RR:::::R     R:::::RO:::::::OOO:::::::OM::::::M               M::::::M   A:::::A             A:::::A   N::::::N      N::::::::NO:::::::OOO:::::::O
+${Ansi.BLUE} R::::::R     R:::::R OO:::::::::::::OO M::::::M               M::::::M  A:::::A               A:::::A  N::::::N       N:::::::N OO:::::::::::::OO
+${Ansi.BLUE} R::::::R     R:::::R   OO:::::::::OO   M::::::M               M::::::M A:::::A                 A:::::A N::::::N        N::::::N   OO:::::::::OO
+${Ansi.BLUE} RRRRRRRR     RRRRRRR     OOOOOOOOO     MMMMMMMM               MMMMMMMMAAAAAAA                   AAAAAAANNNNNNNN         NNNNNNN     OOOOOOOOO
+${Ansi.MAGENTA}                                             zachary.c.romano@gmail.com
+${Ansi.RED} :: Spring Boot${spring-boot.formatted-version} :: ${Ansi.DEFAULT}
+
